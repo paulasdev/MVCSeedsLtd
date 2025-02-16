@@ -24,4 +24,13 @@ app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Home}/{id?}");
 
+app.MapControllerRoute(
+    name: "default1",//change the name
+    pattern: "{controller=Potato}/{action=BlightResistant}/{id?}");
+
+app.MapControllerRoute(
+    name: "default2",//change the name
+    pattern: "{controller=Seeds}/{action=FlowerSeeds}/{id?}");
+
+
 app.Run();

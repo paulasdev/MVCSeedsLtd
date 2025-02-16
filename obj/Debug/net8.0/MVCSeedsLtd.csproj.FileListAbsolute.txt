@@ -28,3 +28,4 @@
 /Users/paulacarolinasilva/Desktop/MVCSeedsLtd/obj/Debug/net8.0/ref/MVCSeedsLtd.dll
 /Users/paulacarolinasilva/Desktop/MVCSeedsLtd/obj/Debug/net8.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css
 /Users/paulacarolinasilva/Desktop/MVCSeedsLtd/obj/Debug/net8.0/scopedcss/projectbundle/MVCSeedsLtd.bundle.scp.css
+/Users/paulacarolinasilva/Desktop/MVCSeedsLtd/obj/Debug/net8.0/MVCSeedsLtd.sourcelink.json
