@@ -1,0 +1,59 @@
+body {
+  background-color: slategray;
+}
+
+h1 {
+  font-size: 40px;
+  color: yellow;
+}
+
+nav {
+  width: 200px;
+  float: left;
+}
+
+ul {
+  list-style: none;
+}
+
+nav ul li a {
+  display: block;
+  border: solid darkgrey;
+  border-width: 10px 1px 1px 10px;
+  background-color: #eeeeee;
+  color: darkgrey;
+  text-decoration: none;
+  line-height: 36px;
+  margin-top: 8px;
+  text-align: center;
+}
+
+nav ul li a:hover {
+  color: white;
+  background-color: aqua;
+}
+
+section {
+  float: left;
+  background-color: #eeeeee;
+  padding: 40px;
+  width: 700px;
+  height: 300px;
+  margin-left: 50px;
+}
+
+.label {
+  font-size: 26px;
+  font-weight: 800;
+  color: orange;
+  margin-top: 15px;
+}
+
+.par {
+  background-color: orange;
+}
+
+.s,
+.p {
+  display: none;
+}
