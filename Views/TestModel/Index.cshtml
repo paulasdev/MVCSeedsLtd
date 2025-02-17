@@ -1,0 +1,32 @@
+﻿@model MVCSeedsLtd.Models.Seeds
+
+@{
+  ViewData["Title"] = "Index";
+  Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Using Models in MVC</h2>
+
+<div>
+  <h4>How to display the properties of an object from Seeds class</h4>
+  <hr />
+<dl class="dl-horozontal">
+  <dt>@Html.DisplayNameFor(model => model.Category)</dt>
+  <dd>@Html.DisplayFor(model => model.Category)</dd>
+  <dt>@Html.DisplayNameFor(model => model.SeedName)</dt>
+  <dd>@Html.DisplayFor(model => model.SeedName)</dd>
+  <dt>@Html.DisplayNameFor(model => model.Variaty)</dt>
+  <dd>@Html.DisplayFor(model => model.Variaty)</dd>
+  <dt>@Html.DisplayNameFor(model => model.Properties)</dt>
+  <dd>@Html.DisplayFor(model => model.Properties)</dd>
+   <dt>@Html.DisplayNameFor(model => model.Description)</dt>
+  <dd>@Html.DisplayFor(model => model.Description)</dd>
+   <dt>@Html.DisplayNameFor(model => model.No_In_Stock)</dt>
+  <dd>@Html.DisplayFor(model => model.No_In_Stock)</dd>
+</dl>
+</div>
+
+<p>
+  @Html.ActionLink("Edit ME", "Edit", new { /* id = Model.PrimaryKey */})
+  @Html.ActionLink("Back to List", "Index")
+</p>

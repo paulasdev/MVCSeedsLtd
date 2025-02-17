@@ -20,9 +20,6 @@ app.UseRouting();
 
 app.UseAuthorization();
 
-app.MapControllerRoute(
-    name: "default",
-    pattern: "{controller=Home}/{action=Home}/{id?}");
 
 app.MapControllerRoute(
     name: "default1",//change the name
@@ -31,6 +28,10 @@ app.MapControllerRoute(
 app.MapControllerRoute(
     name: "default2",//change the name
     pattern: "{controller=Seeds}/{action=FlowerSeeds}/{id?}");
+
+app.MapControllerRoute(
+    name: "default",
+    pattern: "{controller=Home}/{action=Home}/{id?}");
 
 
 app.Run();
